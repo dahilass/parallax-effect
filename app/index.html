@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Document</title>
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/fonts.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
+
+        <script src="js/plugins/gsap.min.js" defer></script>
+        <script src="js/plugins/ScrollTrigger.min.js" defer></script>
+        <script src="js/plugins/ScrollSmoother.min.js" defer></script>
+        <script src="js/main.min.js" defer></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <header class="header">
+                    <picture
+                        data-speed=".4"
+                        data-lag=".5"
+                        class="header__image"
+                    >
+                        <img
+                            src="./img/hero-section.png"
+                            alt="decorated-face"
+                        />
+                    </picture>
+                    <div class="container">
+                        <h1 data-speed=".6" class="header__title">
+                            параллакс эффект
+                        </h1>
+                    </div>
+                </header>
+                <main class="main">
+                    <picture data-speed=".4" class="main__image">
+                        <img src="./img/main-bg.png" alt="image" />
+                    </picture>
+                    <div class="portfolio main__portfolio">
+                        <div class="container">
+                            <div class="portfolio__inner">
+                                <div
+                                    data-speed=".9"
+                                    class="portfolio__gallery portfolio__gallery_left"
+                                >
+                                    <picture
+                                        class="portfolio__item portfolio__item_image"
+                                    >
+                                        <img
+                                            src="./img/work/1.webp"
+                                            alt="portfolio-card"
+                                        />
+                                    </picture>
+                                    <picture
+                                        class="portfolio__item portfolio__item_image"
+                                    >
+                                        <img
+                                            src="./img/work/2.webp"
+                                            alt="portfolio-card"
+                                        />
+                                    </picture>
+                                    <picture
+                                        class="portfolio__item portfolio__item_image"
+                                    >
+                                        <img
+                                            src="./img/work/3.webp"
+                                            alt="portfolio-card"
+                                        />
+                                    </picture>
+                                    <div class="text-block portfolio__item">
+                                        <h2>Заголовок</h2>
+                                        <p>
+                                            Далеко-далеко за словесными горами в
+                                            стране гласных и согласных живут
+                                            рыбные тексты. Моей ее раз щеке,
+                                            живет она точках если жизни
+                                            коварный.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    data-speed="1.1"
+                                    class="portfolio__gallery portfolio__gallery_right"
+                                >
+                                    <div class="text-block portfolio__item">
+                                        <h2>Заголовок</h2>
+                                        <p>
+                                            Далеко-далеко за словесными горами в
+                                            стране гласных и согласных живут
+                                            рыбные тексты. Моей ее раз щеке,
+                                            живет она точках если жизни
+                                            коварный.
+                                        </p>
+                                    </div>
+                                    <picture
+                                        class="portfolio__item portfolio__item_image"
+                                    >
+                                        <img
+                                            src="./img/work/4.webp"
+                                            alt="portfolio-card"
+                                        />
+                                    </picture>
+                                    <picture
+                                        class="portfolio__item portfolio__item_image"
+                                    >
+                                        <img
+                                            src="./img/work/5.webp"
+                                            alt="portfolio-card"
+                                        />
+                                    </picture>
+                                    <picture
+                                        class="portfolio__item portfolio__item_image"
+                                    >
+                                        <img
+                                            src="./img/work/6.webp"
+                                            alt="portfolio-card"
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="footer"></footer>
+            </div>
+        </div>
+    </body>
+</html>
